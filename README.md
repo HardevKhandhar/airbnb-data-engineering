@@ -1,6 +1,6 @@
 # Airbnb Data Engineering
 
-> _This project was completed as part of my graduate coursework at Simon Fraser University (SFU). It does not represent the official views or endorsements of Airbnb or any other organization. The project's primary goal is to demonstrate data engineering concepts and practices. It may not reflect real-world practices and any data used is for illustrative purposes only._
+> _This project was completed as part of my graduate coursework at Simon Fraser University (SFU) during the Fall 2022 term. It does not represent the official views or endorsements of Airbnb or any other organization. The project's primary goal is to demonstrate data engineering concepts and practices. It may not reflect real-world practices and any data used is for illustrative purposes only._
 
 ## Overview: Airbnb
 
