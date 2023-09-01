@@ -1,24 +1,15 @@
-# CMPT 732 G100 - Final Project - Fall 2022
+# Airbnb Data Engineering
 
-**Team Name:  Marshmallow**
-
-**Team Members:**
-
-| Name | Student ID | Computing ID |
-| :--- | :--- | :--- |
-| Rithik Agarwal | 301560443 | raa72@sfu.ca | 
-| Priyanka Jain | 301553408 | psj3@sfu.ca | 
-| Hardev Khandhar| 301543441 | hmk9@sfu.ca |
-
+> _This project was completed as part of my graduate coursework at Simon Fraser University (SFU). It does not represent the official views or endorsements of Airbnb or any other organization. The project's primary goal is to demonstrate data engineering concepts and practices. It may not reflect real-world practices and any data used is for illustrative purposes only._
 
 ## Overview: Airbnb
 
-Airbnb is an online marketplace that helps people in finding a short-term homestay. The host or a person renting out their home for a short duration put up various details of the homestay such as pictures, different amenities, location, and the nightly charge. The visitors can use these details to select the ideal homestay. The choice of selection is also helped by the ratings and reviews each listing receives. Airbnb is currently active in 191 countries and over 100,000 cities.
+Airbnb is an online marketplace that helps people in finding a short-term homestay. The host or a person renting out their home for a short duration put up various details of the homestay such as pictures, different amenities, location and the nightly charge. The visitors can use these details to select the ideal homestay. The choice of selection is also helped by the ratings and reviews each listing receives. Airbnb is currently active in 191 countries and over 100,000 cities.
 
 
 ## Problem Definition
 
-One of the main issues that international students face on their arrival in Canada is finding a temporary stay for the initial few days. After a long journey, students desire comfort and they are most motivated to book Airbnb accommodations because of their low cost, convenient location, and household amenities. However, selecting an Airbnb can be a challenge if you don’t have prior knowledge of the place. Through this project, we intend to work on comprehensive data engineering pipeline with students as a target group and analyse the listings in Toronto and Vancouver to help the students select the area and the type of Airbnb they need to choose.
+One of the main issues that international students face on their arrival in Canada is finding a temporary stay for the initial few days. After a long journey, students desire comfort and they are most motivated to book Airbnb accommodations because of their low cost, convenient location and household amenities. However, selecting an Airbnb can be a challenge if you don’t have prior knowledge of the place. Through this project, we intend to work on comprehensive data engineering pipeline with students as a target group and analyse the listings in Toronto and Vancouver to help the students select the area and the type of Airbnb they need to choose.
 
 
 ## Prerequisites
@@ -87,7 +78,7 @@ One of the main issues that international students face on their arrival in Cana
 
 ## Approach to the solution
 
-We chose two major student hubs in Canada for the project: Vancouver and Toronto. The data was then downloaded from the Internet using Python scripts, and the raw, unfiltered data was uploaded to Amazon S3 for further processing and analysis. The dataset was examined (exploratory data analysis) to determine its potential and the amount of cleaning required. The data was cleaned with the help of these observations. During cleaning, unnecessary rows were removed, null values were removed, and minor issues were addressed. The cleaned dataset was then used for analysis. The analysis was based on two factors: the distance from the city's major universities and the amenities available in each listing. Pricing is critical, especially in large cities where there is a lot of competition and even small price differences can make the difference between optimum occupancy and high earnings or being priced out of the market. The datasets obtained after the analysis were then visualized on Tableau.
+We chose two major student hubs in Canada for the project: Vancouver and Toronto. The data was then downloaded from the Internet using Python scripts and the raw, unfiltered data was uploaded to Amazon S3 for further processing and analysis. The dataset was examined (exploratory data analysis) to determine its potential and the amount of cleaning required. The data was cleaned with the help of these observations. During cleaning, unnecessary rows were removed, null values were removed and minor issues were addressed. The cleaned dataset was then used for analysis. The analysis was based on two factors: the distance from the city's major universities and the amenities available in each listing. Pricing is critical, especially in large cities where there is a lot of competition and even small price differences can make the difference between optimum occupancy and high earnings or being priced out of the market. The datasets obtained after the analysis were then visualized on Tableau.
 
 
 ## Results
