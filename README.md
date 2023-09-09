@@ -21,7 +21,7 @@ One of the main issues that international students face on their arrival in Cana
 
 ## Project Structure
 
-```
+```bash
 .
 ├── executeProject.sh
 ├── __init__.py
@@ -64,11 +64,11 @@ One of the main issues that international students face on their arrival in Cana
         └── restructure.py
 ```
 
-- `/analysis` -> Source code for different analysis performed in the project
-- `/cleaning` -> Source code for data cleaning applied to Raw Data
-- `/notebooks` -> Jupyter notebooks containing the preliminary exploratory data analysis
-- `/preprocessing` -> Source code for the preprocessing of the datasets
-- `/utils` -> Different utility files and helper functions used in the project
+- `/analysis`: Source code for different analysis performed in the project
+- `/cleaning`: Source code for data cleaning applied to Raw Data
+- `/notebooks`: Jupyter notebooks containing the preliminary exploratory data analysis
+- `/preprocessing`: Source code for the preprocessing of the datasets
+- `/utils`: Different utility files and helper functions used in the project
 
 
 ## Data Source
